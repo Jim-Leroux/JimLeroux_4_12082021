@@ -848,7 +848,9 @@ h4 {
 .bg-presentation {
     background-image: url("img/image-de-presentation.webp");
 }
-
+.form-group {
+    padding: 0.5rem 0rem;
+}
 @media (max-width: 1024px) {
     .bloc {
         padding-left: 20px;
@@ -997,6 +999,9 @@ h4 {
         float: left;
         margin-left: 10px;
     }
+    ul {
+        list-style: none;
+    }
     .bloc {
         padding-left: 0;
         padding-right: 0;
@@ -1062,5 +1067,11 @@ h4 {
 @media (max-width: 767px) {
     .bloc-mob-center-text {
         text-align: center;
+    }
+}
+
+@media (min-width: 768px) {
+    #nav-toggle {
+        display: none;
     }
 }
