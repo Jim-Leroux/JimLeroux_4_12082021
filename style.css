@@ -736,7 +736,7 @@ h4 {
 }
 
 .white {
-    color: #FFFFFF!important;
+    color: #000000!important;
 }
 
 .portfolio-thumb {
@@ -908,7 +908,6 @@ h4 {
         padding: 0 20px;
     }
 }
-
 @media (max-width: 767px) {
     .page-container {
         overflow-x: hidden;
